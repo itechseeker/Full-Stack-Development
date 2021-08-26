@@ -1,0 +1,28 @@
+<mat-card class="example-card">
+    <!-- Card header -->
+    <mat-card-header class="align-center">
+      <mat-card-title>List of posts</mat-card-title>
+    </mat-card-header>
+    
+    <!-- Card content -->
+    <mat-card-content>          
+        <table class="example-table">
+            <!-- table header row -->
+            <thead >
+                <th>No</th>
+                <th>Title</th>
+                <th>Content</th>
+            </thead>
+
+            <!-- table body -->
+            <tbody>
+                <!-- table row -->
+                <tr *ngFor="let post of post_list; index as i">
+                    <td>{{i+1}}</td>
+                    <td>{{post.title}}</td>
+                    <td>{{post.body}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </mat-card-content>  
+</mat-card>

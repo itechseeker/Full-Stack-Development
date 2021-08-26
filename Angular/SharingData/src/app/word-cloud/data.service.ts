@@ -30,10 +30,13 @@ export class DataService {
   emit_data= new EventEmitter();
 
   constructor() { }
+
+  // Get word cloud data
   getData(){
     return this.data;
   }
  
+  // Send data to SentenceTableComponent
   sendData(word){
     var data_dict={'word': word, 'sentences':this.sentences[word]}
     this.emit_data.emit(data_dict)

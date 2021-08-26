@@ -20,5 +20,4 @@ export class SentenceTableComponent implements OnInit {
       this.sentence_list=data['sentences']
     })
   }
-
 }
