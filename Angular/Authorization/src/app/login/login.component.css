@@ -1,0 +1,29 @@
+.center_component{
+  margin-top: 20px;
+  text-align: -webkit-center;
+}
+ 
+.example-card {
+    max-width: 400px;
+  }
+ 
+  .align-center{
+    margin: auto;
+    display: block;
+  }
+  
+  .example-input{
+    margin-left: 10px;
+  }
+ 
+  .example-form-field {      
+    width: 100%;
+    height: 40px;
+    text-align: center;
+  }
+ 
+.example-btn{
+    background: #673ab7;
+    color: white;
+    margin-top: 20px;
+}

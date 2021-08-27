@@ -1,0 +1,33 @@
+<div class="center_component">
+    <mat-card class="example-card">
+      <!-- Card header -->
+      <mat-card-header class="card-header">
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link" routerLink='.'>Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" routerLink='about'>About</a>
+            </li>
+        
+            <!-- Not show if user is Guess user -->
+            <li class="nav-item" *ngIf="isnotGuess()" >
+                <a class="nav-link" routerLink='contact'>Contact</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" (click)="logout()">Logout</a>
+            </li>
+        </ul>
+      </mat-card-header>
+      
+      <!-- Card content -->
+      <mat-card-content>
+          <!-- Display view of corresponding component -->
+        <router-outlet></router-outlet>
+      </mat-card-content>  
+
+    </mat-card>
+</div>
+
