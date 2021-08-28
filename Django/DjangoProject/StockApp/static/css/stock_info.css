@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    margin-top: 50px;
+    color: #2929ca;
+}
+table{
+    text-align: center;
+}
+th, td{
+    padding: 10px;
+    min-width: 50px;
+    border: 1px solid black;
+}
+.stock_info_table{
+    text-align: -webkit-center;
+    margin-top: 20px;
+}

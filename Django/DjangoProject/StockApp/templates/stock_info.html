@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Stock Information</title>
+        <!-- Load CSS  -->
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/stock_info.css' %}">
+    </head>
+    <body>
+        <h2> STOCK INFORMATION </h2>
+        <!--  Table to display stock information  -->
+        <div class="stock_info_table">
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>ROE</th>
+                <th>PB</th>
+                <th>Company</th>
+              </tr>
+                {% for stock in stock_info %}
+                <tr>
+                    <td>{{ stock.name}}</td>
+                    <td>{{ stock.roe}}</td>
+                    <td>{{ stock.pb}}</td>
+                    <td>{{ stock.company}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </body>
+</html>
+
+
+
+
