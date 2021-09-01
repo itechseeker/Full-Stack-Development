@@ -1,0 +1,27 @@
+<div class="center_component">
+    <mat-card class="example-card">
+      <!-- Card header -->
+      <mat-card-header class="align-center">
+        <mat-card-title>ITech Seeker</mat-card-title>
+        <mat-card-subtitle>Login example</mat-card-subtitle>
+      </mat-card-header>
+      
+      <!-- Card content -->
+      <mat-card-content>
+        <!-- Enter username -->
+        <div class="example-form-field" >
+          <label>Username:</label>
+          <input  class='example-input' type="email" placeholder="Email" value=" " [(ngModel)]="log_username">              
+        </div>
+      
+        <!-- Enter password -->
+        <div class="example-form-field" >
+          <label>Password:</label>
+          <input  class='example-input' type="password" placeholder="Password" [(ngModel)]="log_pw" (keyup.enter)="login()">
+        </div>
+   
+        <!-- Login button -->
+        <button mat-button class="example-btn" (click)="login()">Login</button>
+      </mat-card-content>  
+    </mat-card>
+  </div>

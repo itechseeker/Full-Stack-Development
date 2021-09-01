@@ -1,0 +1,24 @@
+
+<h2> Stock Information </h2>
+<table class="example-table">
+    <!-- table header row -->
+    <thead >
+        <th>No</th>
+        <th>Name</th>
+        <th>ROE</th>
+        <th>PB</th>
+        <th>Company</th>
+    </thead>
+
+    <!-- table body -->
+    <tbody>
+        <!-- table row -->
+        <tr *ngFor="let stock of stock_list; index as i">
+            <td>{{i+1}}</td>
+            <td>{{stock.name}}</td>
+            <td>{{stock.roe}}</td>
+            <td>{{stock.pb}}</td>
+            <td>{{stock.company}}</td>
+        </tr>
+    </tbody>
+</table>

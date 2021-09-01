@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd069c2a-7cb8-4426-8140-e9f292cc0bdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AddingUser/StockApp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AddingUser/StockApp/utilities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JWT/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegisterExample/RestFrameworkExample/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RegisterExample/RestFrameworkExample/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,70 +22,42 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterExample/StockApp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterExample/RestFrameworkExample/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/views.py">
+        <entry file="file://$PROJECT_DIR$/RegisterExample/RestFrameworkExample/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#27#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/forms.py">
+        <entry file="file://$PROJECT_DIR$/RegisterExample/StockApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="11" selection-end-column="63" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/utilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,6 +116,7 @@
         <option value="$PROJECT_DIR$/AddingUser/StockApp/views.py" />
         <option value="$PROJECT_DIR$/AddingUser/StockApp/forms.py" />
         <option value="$PROJECT_DIR$/AddingUser/StockApp/utilities.py" />
+        <option value="$PROJECT_DIR$/RegisterExample/RestFrameworkExample/settings.py" />
       </list>
     </option>
   </component>
@@ -173,18 +144,18 @@
             <path>
               <item name="Django" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="AddingUser" type="462c0819:PsiDirectoryNode" />
+              <item name="RegisterExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="AddingUser" type="462c0819:PsiDirectoryNode" />
+              <item name="RegisterExample" type="462c0819:PsiDirectoryNode" />
               <item name="RestFrameworkExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="AddingUser" type="462c0819:PsiDirectoryNode" />
+              <item name="RegisterExample" type="462c0819:PsiDirectoryNode" />
               <item name="StockApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -277,9 +248,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Test" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.tests" />
-      <item itemvalue="Python.Test" />
     </list>
     <recent_temporary>
       <list>
@@ -304,7 +275,7 @@
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15015806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15015806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -473,13 +444,13 @@
     <entry file="file://$PROJECT_DIR$/JWTExample/StockApp/views.py" />
     <entry file="file://$PROJECT_DIR$/JWTExample/JWTExample/settings.py" />
     <entry file="file://$PROJECT_DIR$/JWTExample/JWTExample/urls.py" />
-    <entry file="file://$PROJECT_DIR$/AddingUser/RestFrameworkExample/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AddingUser/RestFrameworkExample/urls.py" />
+    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/forms.py" />
+    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/models.py" />
+    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/utilities.py" />
+    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/views.py" />
     <entry file="file://$PROJECT_DIR$/DjangoProject/StockApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -487,60 +458,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/urls.py">
+    <entry file="file://$PROJECT_DIR$/RegisterExample/StockApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state>
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterExample/StockApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/serializers.py">
+    <entry file="file://$PROJECT_DIR$/RegisterExample/RestFrameworkExample/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/forms.py">
+    <entry file="file://$PROJECT_DIR$/RegisterExample/RestFrameworkExample/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddingUser/StockApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#27#79#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
         </state>
       </provider>
     </entry>
