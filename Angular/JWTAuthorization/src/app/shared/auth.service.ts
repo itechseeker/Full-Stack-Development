@@ -22,7 +22,7 @@ export class AuthService {
   constructor(private router: Router, private httpClient: HttpClient) {   
     // Check the access token 
     this.tokenChecking()
-    // Check token every 1 min to make sure user always get update token 2
+    // Check token every 1 min to make sure user always get update token
     this.tokenInterval() 
   } 
    
@@ -64,19 +64,32 @@ export class AuthService {
     this.router.navigate(['/login']);
   }
 
+   // This function is used in AuthGuard
+   isAuthenticated(){    
+    let refresh_token=localStorage.getItem('refresh_token') 
+    // Check if refresh token exsist
+    if(refresh_token){
+      var refreshTime= parseInt(localStorage.getItem('refresh_exp') ) - Math.floor(Date.now() / 1000)
+      // If the refresh token valid more than 1 min
+      if(refreshTime>60){      
+        // Get user role
+        this.role= jwt_decode(refresh_token)['role']
+        return true    
+      }
+    }    
+    // return false by default
+    return false
+  } 
+
   //  Check access token every 1 min to see if it is still valid
   tokenInterval() {
     this.token_interval = setInterval(() => {
       this.tokenChecking();
     },60*1000)
-  }
+  }  
 
-  ngOnDestroy() {
-    clearInterval(this.token_interval);
-  }
-
+  // Refresh token if needed
   tokenChecking(){
-    console.log('check token first')
     let access_token=localStorage.getItem('access_token') 
     // Check if access token exsist
     if(access_token){
@@ -94,25 +107,9 @@ export class AuthService {
           }
       }
     }
-  }
-
-  // Use async and await to wait for refresh2token() function
-   isAuthenticated(){    
-    let refresh_token=localStorage.getItem('refresh_token') 
-    // Check if refresh token exsist
-    if(refresh_token){
-      var refreshTime= parseInt(localStorage.getItem('refresh_exp') ) - Math.floor(Date.now() / 1000)
-      // If the refresh token valid more than 1 min
-      if(refreshTime>60){      
-        // Get user role
-        this.role= jwt_decode(refresh_token)['role']
-        return true    
-      }
-    }    
-    // return false by default
-    return false
   } 
 
+  // Get new access token using refresh token
   refresh2token(){
     console.log('Get new token using refresh token')
     this.httpClient.post('http://127.0.0.1:8000/refresh-token/',{refresh: localStorage.getItem('refresh_token')}).subscribe(
@@ -127,5 +124,9 @@ export class AuthService {
         localStorage.setItem('access_exp', decoded_access['exp']); 
       }
     ) 
+  }
+
+  ngOnDestroy() {
+    clearInterval(this.token_interval);
   }
 }
