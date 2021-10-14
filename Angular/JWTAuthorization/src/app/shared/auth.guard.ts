@@ -13,10 +13,11 @@ export class AuthGuard implements CanActivate {
   canActivate(route: ActivatedRouteSnapshot){
     const expectedRole = route.data.roles;
     // return true if user role is not expectedRole
+    var isAuthenticated= this.auth_service.isAuthenticated()
     var notRole= (expectedRole!= undefined && this.auth_service.role != expectedRole)
 
     // Redirect to login page if the user is not authenticated
-    if (!this.auth_service.isAuthenticated()) {
+    if (!isAuthenticated) {
       this.router.navigate(['login']);
       return false;
     }
